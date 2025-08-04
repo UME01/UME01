@@ -10,7 +10,7 @@ I’m deeply passionate about cybersecurity and enjoy solving complex problems t
 
 ## 🚨 Threat Hunting and Security Operations
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/joshmadakor0/threat-hunting-scenario-tor)**
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/UME01/threat-hunting-scenario-tor-)**
 
 <hr/>
 
