@@ -11,11 +11,11 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN10-AU-000500
+    STIG-ID         : WN10-AU-000185
 
 .
     syntax:
-    PS C:\> .STIG-ID-WN10-AU-000500 
+    PS C:\> .STIG-ID-WN10-AU-000185
 #>
 
 # STIG: WN10-CC-000185
