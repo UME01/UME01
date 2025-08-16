@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This PowerShell code configures the Windows Account Lockout Duration security policy to comply with the STIG requirement (WN10-AC-000005).
 
 .NOTES
     Author          : Chiemelie Ume
