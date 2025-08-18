@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+   This script enables FIPS mode (e.g., STIG mapping WN10-SO-000230) so Windows uses only FIPS-validated algorithms for encryption, hashing, and signing. It requires elevation, then creates/updates
+HKLM\SYSTEM\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy and sets Enabled=1
 
 .NOTES
     Author          : Chiemelie Ume
