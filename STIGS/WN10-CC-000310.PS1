@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
-
+   This PowerShell enforces the Windows Installer policy “Allow user control over installs” = Disabled by creating/updating
+HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer and setting EnableUserControl=0.
 .NOTES
     Author          : Chiemelie Ume
     LinkedIn        : https://www.linkedin.com/in/chiemelie-ume-a15b45285/
