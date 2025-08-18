@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This PowerShell configures the Windows SSL/TLS (Schannel) ECC curve priority order via policy. It creates/updates
+HKLM\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002 and sets the EccCurves REG_MULTI_SZ to NistP384 then NistP256, preferring stronger P-384 and allowing P-256 only.
 
 .NOTES
     Author          : Chiemelie Ume
