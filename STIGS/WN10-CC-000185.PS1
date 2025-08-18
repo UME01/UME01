@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This PowerShell enforces Windows 10 STIG WN10-CC-000185 by disabling execution of all Autorun commands. It creates/updates the registry key
 
 .NOTES
     Author          : Chiemelie Ume
