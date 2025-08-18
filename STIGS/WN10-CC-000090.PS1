@@ -1,7 +1,8 @@
 
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This script enforces Windows 10 STIG WN10-CC-000090 by making the Group Policy client reapply registry policy at every refresh, even when no GPO changes are detected. It requires elevation, then creates/updates
+HKLM\SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2} and sets NoGPOListChanges=0.
 
 .NOTES
     Author          : Chiemelie Ume
