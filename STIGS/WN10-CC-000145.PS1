@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This PowerShell snippet enforces Windows 10 STIG WN10-CC-000145 by requiring a password when the computer wakes from sleep while on battery power. It creates/updates the policy registry key
 
 .NOTES
     Author          : Chiemelie Ume
