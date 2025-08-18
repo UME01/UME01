@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
-
+   This PowerShell enforces Admin Approval Mode for the built-in Administrator and ensures UAC is enabled. It creates/updates
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System with EnableLUA=1 (turn on UAC) and FilterAdministratorToken=1 (put built-in Administrator into Admin Approval Mode), then verifies both values.
 .NOTES
     Author          : Chiemelie Ume
     LinkedIn        : https://www.linkedin.com/in/chiemelie-ume-a15b45285/
